@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import './css/styleMenu.css'
+import Tubar from  './menu-home/Tubar';
+import ListItensMenu from './menu-home/ListItensMenu'
+/*import Navegation from './menu-home/Navegation'*/
+
 
 function App() {
   return (
-    <div className="App">
+    <div id="pp" className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-
-
-          
-        >
-          Learn React
-        </a>
+        <Tubar/>
+        <ListItensMenu/>
+        <h2>menu ainda não ta  </h2>
+        <h3>funcionado</h3>
       </header>
     </div>
   );
