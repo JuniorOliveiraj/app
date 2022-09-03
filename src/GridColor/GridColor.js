@@ -8,7 +8,7 @@ const AspectRatio = (props) => {
   return (
     <div
       className="aspect-ratio"
-      style={{ paddingTop: `${100 / ratio}%` }}
+      style={{ paddingTop: `${65 / ratio}%` }}
       {...otherProps}
     />
   );

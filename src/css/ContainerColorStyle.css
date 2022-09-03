@@ -13,7 +13,7 @@
     color: var(--color-text);
     display: grid;
     font-family: var(--font-family);
-    margin-top: 90px;
+    margin-top: 70px;
     line-height: 1.5;
     
     margin: 0;
@@ -25,7 +25,7 @@
 
   
   .grid {
-    inline-size: 50vw;
+    inline-size: 60vw;
     margin-inline: auto;
     max-inline-size: 1440px;
   }
@@ -59,7 +59,7 @@
   
   .palette__caption {
     background-color: #fff;
-    font-size: 0.875rem;
+    font-size: 0.395rem;
     font-weight: 500;
     padding: 1.5em;
     text-align: center;
